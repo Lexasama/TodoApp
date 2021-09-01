@@ -1,0 +1,1 @@
+{"version":3,"file":"TaskApi.d.ts","sourceRoot":"","sources":["../../src/api/task/TaskApi.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,IAAI,EAAE,MAAM,wBAAwB,CAAC;AAK9C,wBAAsB,WAAW,iBAEhC;AAED,wBAAsB,eAAe,CAAC,KAAK,EAAE,MAAM,gBAElD;AAED,wBAAsB,eAAe,CAAC,EAAE,EAAE,MAAM,gBAE/C;AAED,wBAAuB,eAAe,CAAC,EAAE,EAAC,MAAM,EAAE,KAAK,EAAE,IAAI,gBAE5D"}

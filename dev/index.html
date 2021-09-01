@@ -3,20 +3,45 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>&lt;my-element> Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A Todo App developped with litelemtn and typescript"
+    />
+    <title>Todo App</title>
     <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
     <script src="../node_modules/lit/polyfill-support.js"></script>
     <script type="module" src="../my-element.js"></script>
+    <link rel="stylesheet" href="node_modules/lit-fontawesome/css/font.css" />
+
     <style>
-      p {
-        border: solid 1px blue;
-        padding: 8px;
+      *,
+      *:before,
+      *:after {
+        box-sizing: border-box;
+      }
+
+      html {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-feature-settings: 'liga', 'kern';
+        overflow-y: scroll;
+        overflow-x: hidden;
+        height: 100%;
+        background: linear-gradient(210deg, #9adbbe, #4fc08d);
+      }
+
+      body {
+        overflow: hidden;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Source Sans Pro', sans-serif;
       }
     </style>
   </head>
   <body>
-    <my-element>
-      <p>This is child content</p>
-    </my-element>
+    <my-element></my-element>
   </body>
 </html>
