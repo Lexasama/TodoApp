@@ -19,6 +19,13 @@
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
+    "baseUrl": ".",
+      "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "resolveJsonModule": true,
     "forceConsistentCasingInFileNames": true,
     "plugins": [
       {
